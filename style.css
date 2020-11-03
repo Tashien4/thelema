@@ -1,4 +1,5 @@
-body {background: black;}
+body {background: black;overflow-x:hidden; }
+html {overflow-x:hidden; }
 nav ul {display: flex ;
     margin:0;
     text-align: center;
