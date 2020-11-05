@@ -7,7 +7,7 @@
     nav li{border:0px solid black !important; padding:20px;}
     .begin {flex: 75% !important;text-align: end;}
     #home {display: flex !important;}
-    p{text-shadow: 4px 1px 2px #565656;}
+    p, dop_text{text-shadow: 4px 1px 2px #565656;}
     .slider__item div{height: 450px !important;}
 }
 
