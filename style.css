@@ -1,26 +1,30 @@
- @media screen and (max-width: 800px) {
-    .nav > li {
-        float: none;
-    }
-    .nav ul {
-        display: block;
-        width: 100%;
-    }
-   .nav > li.hover > ul , .nav li li.hover ul {
-        position: static;
-    }
+ @media screen and (max-width: 768px) {
+       
+    nav {display: flex;}
+    #git{border: 0px;text-align: center !important;width: 70%;}
+    nav ul{flex-direction: column !important;display: flex; }
+    .top{flex: 25%;position: relative  !important;}
+    nav li{border:0px solid black !important; padding:20px;}
+    .begin {flex: 75% !important;text-align: end;}
+    #home {display: flex !important;}
+    p{text-shadow: 4px 1px 2px #565656;}
+    .slider__item div{height: 450px !important;}
 }
 
 body {background: black;
     overflow-x:hidden; 
+
 }
+.slider__item div{height: 550px;}
 html {overflow-x:hidden; }
 nav ul {display: flex ;
     margin:0;
+    flex-direction: row;  
     text-align: center;
     align-items: center;
     border-bottom: 1px solid gold;
     }
+    #git {border: 0px;text-align: right;width: 70%;}
 nav li{ opacity: 1;
         list-style-type: none; 
         width: 100%;
@@ -93,8 +97,7 @@ button {background-color: #ffd400;
     margin: 0 5%; 
     color:black; 
     font-size:16px; }
-button:hover {background-color: #b79908; c
-    olor:white;}
+button:hover {background-color: #b79908; color:white;}
     footer{background: black;}
       .slider {
         position: relative;
@@ -117,7 +120,6 @@ button:hover {background-color: #b79908; c
         flex: 0 0 100%;
         max-width: 100%;
       }
-.slider__item div{height: 550px;}
 
       .slider__control {
         position: absolute;
