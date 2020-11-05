@@ -1,24 +1,16 @@
- @media all and (max-width: 768px) {     /* стиль как будет если разрешение <768px*/
-        nav {
-            flex-direction: column;    
-        }
-
-        nav {
-            order: 0;
-            display: grid;
-             grid-row: 1;
-
-        }
-
-        nav ul{
-            display: flex;
-        }
-        nav li{
-            min-height: 50px;
-            max-height: 50px;
-        }
-
+ @media screen and (max-width: 800px) {
+    .nav > li {
+        float: none;
     }
+    .nav ul {
+        display: block;
+        width: 100%;
+    }
+   .nav > li.hover > ul , .nav li li.hover ul {
+        position: static;
+    }
+}
+
 body {background: black;
     overflow-x:hidden; 
 }
