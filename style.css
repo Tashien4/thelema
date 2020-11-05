@@ -1,3 +1,24 @@
+ @media all and (max-width: 768px) {     /* стиль как будет если разрешение <768px*/
+        nav {
+            flex-direction: column;    
+        }
+
+        nav {
+            order: 0;
+            display: grid;
+             grid-row: 1;
+
+        }
+
+        nav ul{
+            display: flex;
+        }
+        nav li{
+            min-height: 50px;
+            max-height: 50px;
+        }
+
+    }
 body {background: black;
     overflow-x:hidden; 
 }
