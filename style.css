@@ -9,6 +9,8 @@
     #home {display: flex !important;}
     p, dop_text{text-shadow: 4px 1px 2px #565656;}
     .slider__item div{height: 450px !important;}
+    .inside {margin:0 !important;}
+    .f_1{flex-direction: column;}
 }
 
 body {background: black;
